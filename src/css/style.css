@@ -33,6 +33,51 @@
     line-height: 2rem;
 }
 
+.container .principal .description {
+    position: relative;
+    display: flex;
+    background-color: aqua;
+    height: 56.7%;
+}
+
+.container .principal .description .subscription{
+    padding: 3.5rem;
+    font-size: 1.3rem;
+}
+
+.container .principal .description .subscription h1 {
+    padding-bottom: 20px;
+    font-weight: 700px;
+}
+
+.container .principal .description .subscription h2 {
+    font-size: 2.7rem;
+    margin-bottom: 5px;
+}
+
+.container .principal .description .subscription .text{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 21.5px;
+}
+
+
+.container 
+.principal
+.subscription,
+.info {
+    width: 50%;
+}
+
+.container .principal .subscription{
+    background-color: rgb(250, 136, 250);
+
+}
+.container .principal .info{
+    background-color: rgb(202, 147, 253);
+}
+
 
 
 
