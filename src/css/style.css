@@ -14,7 +14,8 @@
     position: absolute;
     background-color:tomato;
     height: 640px;
-    width: 850px;
+    /* width: 850px; */
+    margin: 10px;
 }
 
 .container .principal .header{
@@ -96,7 +97,3 @@
 .container .principal .info{
     background-color: rgb(202, 147, 253);
 }
-
-
-
-

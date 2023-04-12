@@ -1,0 +1,21 @@
+@media (max-width: 840px){
+    .container {
+        background-color: red;
+        min-height: 100%;
+    }
+
+    .container .principal{
+        height: 90vh;
+        width: 550px;
+        top:20px;
+        margin: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .description {
+        flex-direction: column;
+    }
+
+}
