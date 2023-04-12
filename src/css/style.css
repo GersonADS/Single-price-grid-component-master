@@ -70,12 +70,24 @@
     font-size: 20px;
     font-weight: 700;
 }
+
+.container .principal .description .info {
+    padding: 3.5rem;
+    font-size: 18px;
+    text-align:left;
+    line-height: 27px;
+}
+
+.container .principal .description .info h1 {
+    margin-bottom: 20px;
+}
 .container 
 .principal
 .subscription,
 .info {
     width: 50%;
 }
+
 
 .container .principal .subscription{
     background-color: rgb(250, 136, 250);
