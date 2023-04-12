@@ -10,9 +10,29 @@
 }
 
 .container .principal{
+    top: 216px;
+    position: absolute;
     background-color:tomato;
     height: 640px;
     width: 850px;
-
 }
+
+.container .principal .header{
+    background-color:salmon;
+    height: 280px;
+    padding: 3.6rem;
+}
+
+.container .principal .header h2{
+    padding-top: 25px;
+    padding-bottom: 12px;
+}
+
+.container .principal .header p {
+    font-size: 21.3px;
+    line-height: 2rem;
+}
+
+
+
 
