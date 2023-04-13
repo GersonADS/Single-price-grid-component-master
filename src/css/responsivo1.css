@@ -1,0 +1,20 @@
+@media (max-width: 860px){
+
+    .move{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .move .container{
+        top: 50%;
+        height: 90vh;
+        margin: auto;
+        width: 315px;
+    }
+
+    .container .descriptions{
+        flex-grow: 2;
+        flex-direction: column;
+    }
+
+}

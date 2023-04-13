@@ -19,22 +19,72 @@
 }
 
 .container .section1{
-    flex-grow: 1;
+    padding: 7%;
+    /* line-height: 4rem; */
+    flex-grow: .1;
     background-color: tomato;
+
 }
+
+.container .section1 h1 {
+    font-size: 2rem;
+}
+
+.container .section1 h2 {
+    margin-top: 1.4rem;
+    margin-bottom: 1.2rem;
+}
+
+.container .section1 p {
+    font-size: 1.3rem;
+    word-spacing: 1px;
+    line-height: 2.2rem;
+}
+
 
 .container .descriptions{
     display: flex;
-    flex-grow: 1.1;
+    flex-grow: 9;
     background-color:maroon;
 }
 .container .descriptions .section2{
     background-color: coral;
+    line-height: 3.5rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
     flex-grow: 1;
     flex-basis: 50%;
 }
+
+.container .descriptions .section2 h1 {
+    font-size: 19pt;
+}
+
+.container .descriptions .section2 h2 {
+    font-size: 30pt;
+    color: aliceblue;
+}
+.container .descriptions .section2 .text{
+    position: absolute;
+    color: hsl(204, 43%, 93%);
+    font-size:18pt;
+    margin-left: 13px;
+}
+
+.container .descriptions .section2 p{
+    font-size: 17pt;
+}
+.container .descriptions .section2 .btn {
+    margin-top: 1rem;
+    min-width: 90%;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.324);
+}
+
 .container .descriptions .section3{
     background-color: sandybrown;
     flex-grow: 1;
     flex-basis: 50%;
 }
+
+
