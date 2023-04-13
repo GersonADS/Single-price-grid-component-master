@@ -1,12 +1,13 @@
 ## Overview
+
 ### Photo of the Site
 
-![](./secreenshot.png)
+![](./screenshot.png)
 
 
 ### Links
 
-- Link do Github Pages: [Link do Projeto(site)](https://gersonads.github.io/Profile_card-main/)
+- Link do Github Pages: [Link do Projeto(site)](https://github.com/GersonADS/Single-price-grid-component-master/)
 
 
 ### Built with
