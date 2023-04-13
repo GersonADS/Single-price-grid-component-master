@@ -1,4 +1,15 @@
-@media (max-width: 860px){
+@media (max-width: 880px){
+    .move    .container {
+
+      width: 600px;
+    }
+    .container .descriptions .section2 p {
+        font-size: 10pt;
+        line-height: 2.2rem;
+    }
+}
+
+@media (max-width: 610px){
 
     html{
         font-size: 10px;
