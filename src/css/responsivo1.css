@@ -1,5 +1,9 @@
 @media (max-width: 860px){
 
+    html{
+        font-size: 10px;
+    }
+
     .move{
         justify-content: center;
         align-items: center;
@@ -7,7 +11,7 @@
 
     .move .container{
         top: 50%;
-        height: 90vh;
+        height: 721px;
         margin: auto;
         width: 315px;
     }
@@ -15,6 +19,32 @@
     .container .descriptions{
         flex-grow: 2;
         flex-direction: column;
+    }
+
+    .container .descriptions .section2 h1{
+        font-size: 12.7pt;
+        margin-bottom: 10px;
+    }   
+
+    .container .descriptions .section2 h2 {
+        font-size: 3rem;
+    }
+    .container .descriptions .section2 .text {
+        font-size: 11pt;
+    }
+    .container .descriptions .section2 p {
+        font-size: 12pt;
+    }
+    .container .descriptions .section2 .btn {
+        margin-top: 30px;
+    }
+    .container .descriptions .section3 h1 {
+        font-size: 15pt;
+    }
+
+    .container .descriptions .section3 p {
+        font-size: 10pt;
+        line-height: 2.2rem;
     }
 
 }
