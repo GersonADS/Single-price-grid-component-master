@@ -8,11 +8,33 @@
 
 .move .container{
     position: absolute;
+    flex-direction: column;
+    display: flex;
     left: 50%;
     top: 55%;
     transform: translate(-50%,-50%);
     height: 640px;
     width: 850px;
     background-color: brown;
+}
 
+.container .section1{
+    flex-grow: 1;
+    background-color: tomato;
+}
+
+.container .descriptions{
+    display: flex;
+    flex-grow: 1.1;
+    background-color:maroon;
+}
+.container .descriptions .section2{
+    background-color: coral;
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+.container .descriptions .section3{
+    background-color: sandybrown;
+    flex-grow: 1;
+    flex-basis: 50%;
 }
