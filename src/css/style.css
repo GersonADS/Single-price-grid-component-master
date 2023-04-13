@@ -1,7 +1,7 @@
 
 
 .container{
-    display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     background-color: hsl(204, 43%, 93%);
@@ -10,12 +10,12 @@
 }
 
 .container .principal{
-    top: 216px;
-    position: absolute;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
     background-color:tomato;
-    height: 640px;
-    /* width: 850px; */
-    margin: 10px;
+    height: 540px;
+    margin: 50px;
 }
 
 .container .principal .header{
@@ -38,7 +38,6 @@
     position: relative;
     display: flex;
     background-color: aqua;
-    height: 56.7%;
 }
 
 .container .principal .description .subscription{
@@ -82,11 +81,12 @@
 .container .principal .description .info h1 {
     margin-bottom: 20px;
 }
+
 .container 
 .principal
 .subscription,
 .info {
-    width: 50%;
+    flex-grow: 1;
 }
 
 

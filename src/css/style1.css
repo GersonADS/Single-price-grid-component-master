@@ -1,0 +1,18 @@
+.move{
+    position: relative;
+    display: flex;
+    background-color: hsl(204, 43%, 93%);
+    height: 100vh;
+    min-width: 100%;
+}
+
+.move .container{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    height: 640px;
+    width: 850px;
+    background-color: brown;
+
+}
