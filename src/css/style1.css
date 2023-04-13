@@ -5,65 +5,75 @@
     height: 100vh;
     min-width: 100%;
 }
-
 .move .container{
     position: absolute;
     flex-direction: column;
     display: flex;
-    left: 50%;
-    top: 55%;
-    transform: translate(-50%,-50%);
     height: 640px;
     width: 850px;
-    background-color: brown;
+    left: 50%;
+    top: 55%;
+    border-radius: 5%;
+    transform: translate(-50%,-50%);
+    background-color: aliceblue;
 }
-
 .container .section1{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
     padding: 7%;
-    /* line-height: 4rem; */
     flex-grow: .1;
-    background-color: tomato;
-
+    background-color: white;
+    
 }
+
 
 .container .section1 h1 {
     font-size: 2rem;
+    color:  hsl(179, 62%, 43%);
 }
 
 .container .section1 h2 {
     margin-top: 1.4rem;
     margin-bottom: 1.2rem;
+    color: hsl(71, 73%, 54%);
 }
 
 .container .section1 p {
     font-size: 1.3rem;
     word-spacing: 1px;
     line-height: 2.2rem;
+    color: hsl(218, 22%, 67%);
 }
 
 
 .container .descriptions{
     display: flex;
     flex-grow: 9;
-    background-color:maroon;
+    background-color:#4abebd;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
+
 .container .descriptions .section2{
-    background-color: coral;
+    background-color: hsl(179, 62%, 43%);
     line-height: 3.5rem;
     padding-top: 2rem;
     padding-left: 3rem;
     flex-grow: 1;
+    border-bottom-left-radius: 1rem;
     flex-basis: 50%;
 }
 
 .container .descriptions .section2 h1 {
     font-size: 19pt;
+    color: white;
 }
 
 .container .descriptions .section2 h2 {
     font-size: 30pt;
     color: aliceblue;
 }
+
 .container .descriptions .section2 .text{
     position: absolute;
     color: hsl(204, 43%, 93%);
@@ -73,31 +83,39 @@
 
 .container .descriptions .section2 p{
     font-size: 17pt;
+    color:hsl(204, 43%, 93%);
 }
+
 .container .descriptions .section2 .btn {
+    color:white;
+    font-size: 1.3rem;
+    font-weight: 700;
     margin-top: 1rem;
     min-width: 90%;
     padding: 1.5rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.324);
+    border-radius: .5rem;
+    border: 1px solid hsl(71, 73%, 54%);
+    background-color: hsl(71, 73%, 54%);
+    cursor: pointer;
 }
 
 .container .descriptions .section3{
     padding-top: 2.7rem;
     padding-left: 3rem;
-    background-color: sandybrown;
+    background-color: #4abebd;
     flex-grow: 1;
+    border-bottom-right-radius: 1rem;
     flex-basis: 50%;
 }
 
 .container .descriptions .section3 h1 {
     font-size: 19pt;
     margin-bottom: 20px;
+    color: white;
 }
 
 .container .descriptions .section3 p {
     line-height:1.7rem;
+    color: hsl(204, 43%, 93%);
 }
- 
-
-
 
